@@ -17,10 +17,11 @@ Authorization: <YOUR_SERVICE_KEY>
   "category": "best_picture",
   "type": "movie",
   "name": "Parasite",
-  "imdb_url": "https://www.imdb.com/title/tt6751668/",
   "movie": {
+    "title": "Parasite",
     "director": "Bong Joon Ho",
-    "release_date": "2019-11-08"
+    "release_date": "2019-11-08",
+    "imdb_url": "https://www.imdb.com/title/tt6751668/",
   }
 }
 ```
