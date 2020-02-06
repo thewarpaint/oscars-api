@@ -1,6 +1,6 @@
-# Oscars API
+# Oscars Webhook API
 
-The Oscars 2020 API webhook, get a call every time a new winner is announced!
+With the Oscars Webhook API we'll let you know every time a new winner is announced!
 
 ## API
 
