@@ -47,11 +47,11 @@ const getOscarsWinnerTest = (z, bundle) => {
 };
 
 module.exports = {
-  key: 'oscars-winner',
+  key: 'oscars_winner',
   noun: 'Oscars winner',
   display: {
     label: 'New Oscars winner',
-    description: 'Trigger when a new Oscars winner is announced.'
+    description: 'Triggers when a new Oscars winner is announced.'
   },
 
   operation: {
