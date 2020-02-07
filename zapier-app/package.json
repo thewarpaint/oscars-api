@@ -1,15 +1,11 @@
 {
-  "name": "zapier-platform-example-app-rest-hooks",
-  "version": "1.0.0",
-  "description": "An example app for the Zapier platform.",
-  "repository": "zapier/zapier-platform-example-app-rest-hooks",
-  "homepage": "https://zapier.com/",
-  "author": "Bryan Helmig <bryan@zapier.com>",
-  "license": "BSD-3-Clause",
+  "name": "oscars-zapier-webhook",
+  "version": "0.0.1",
+  "description": "Oscars Webhook API for the Zapier platform",
+  "repository": "thewarpaint/oscars-webhook-api",
+  "homepage": "https://eduardogarcia.xyz/",
+  "author": "Eduardo Garcia <eduardogarcia.xyz@gmail.com>",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha --recursive"
-  },
   "engines": {
     "node": ">=8.10.0",
     "npm": ">=5.6.0"
