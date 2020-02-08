@@ -4,9 +4,8 @@ const subscribeHook = (z, bundle) => {
     url: bundle.targetUrl
   };
 
-  // TODO: Generate ngrok tunnel, change URL
   const options = {
-    url: 'https://57b20fb546b57d1100a3c405.mockapi.io/api/hooks',
+    url: 'https://oscars-webhook-api.ngrok.io/api/v1/hooks',
     method: 'POST',
     body: data
   };
@@ -17,9 +16,8 @@ const subscribeHook = (z, bundle) => {
 const unsubscribeHook = (z, bundle) => {
   const hookId = bundle.subscribeData.id;
 
-  // TODO: Generate ngrok tunnel, change URL
   const options = {
-    url: `https://57b20fb546b57d1100a3c405.mockapi.io/api/hooks/${hookId}`,
+    url: `https://oscars-webhook-api.ngrok.io/api/v1/hooks/${hookId}`,
     method: 'DELETE'
   };
 
