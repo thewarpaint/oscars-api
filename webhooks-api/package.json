@@ -1,0 +1,13 @@
+{
+  "name": "webhooks-api",
+  "version": "0.0.1",
+  "description": "Webhooks API server",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Eduardo Garcia <eduardogarcia.xyz@gmail.com>",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^8.0.7"
+  }
+}

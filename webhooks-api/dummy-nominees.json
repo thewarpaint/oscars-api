@@ -1,0 +1,17 @@
+[
+  {
+    "category": "Best Picture",
+    "type": "movie",
+    "name": "Parasite"
+  },
+  {
+    "category": "Actor in a Leading Role",
+    "type": "people",
+    "name": "Joaquin Phoenix (Joker)"
+  },
+  {
+    "category": "Original Song",
+    "type": "song",
+    "name": "(I'm Gonna) Love Me Again (Rocketman)"
+  }
+]
