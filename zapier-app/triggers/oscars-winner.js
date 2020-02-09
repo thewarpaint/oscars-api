@@ -35,10 +35,9 @@ const getOscarsWinner = (z, bundle) => {
   return [winner];
 };
 
-const getOscarsWinnerTest = (z, bundle) => {
-  // TODO: Generate ngrok tunnel, change URL
+const getOscarsWinnerSamples = (z, bundle) => {
   const options = {
-    url: 'https://57b20fb546b57d1100a3c405.mockapi.io/api/recipes/'
+    url: 'https://oscars-webhook-api.ngrok.io/api/v1/nominees'
   };
 
   return z.request(options).then(response => JSON.parse(response.content));
@@ -58,7 +57,7 @@ module.exports = {
     performSubscribe: subscribeHook,
     performUnsubscribe: unsubscribeHook,
     perform: getOscarsWinner,
-    performList: getOscarsWinnerTest,
+    performList: getOscarsWinnerSamples,
     sample: {
       category: 'best_picture',
       type: 'movie',
